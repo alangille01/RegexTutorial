@@ -8,11 +8,11 @@ The regex we'll be discussing is used to match a standard email address format:
 
 `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+This pattern ensures that the email has a valid format, such as example@domain.com. We'll break down each component of this regex to understand how it works.
 
 ## Table of Contents
 
-- [Anchors](#anchors)
+- [Anchors: ^ and $](#anchors)
 - [Quantifiers](#quantifiers)
 - [OR Operator](#or-operator)
 - [Character Classes](#character-classes)
