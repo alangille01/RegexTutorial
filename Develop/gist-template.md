@@ -42,6 +42,11 @@ The `@` symbol is a fixed part of the email format. The regex matches this symbo
 
 ### Domain Name Segment: ([\da-z.-]+)
 
+This segment matches the domain name part of the email, which comes after the @ symbol and before the top-level domain.
+
+* `[\da-z\.-]` matches any digit (`\d`), lowercase letter, period (`.`), or hyphen (`-`).
+* `+` ensures that this part of the email has one or more characters.
+
 ### Top-Level Domain: ([a-z.]{2,6})
 
 ## Author
