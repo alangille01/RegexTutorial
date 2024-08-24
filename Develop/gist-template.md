@@ -1,8 +1,12 @@
 # Title (replace with your title)
 
-Introductory paragraph (replace this with your text)
+In web development, validating user input is a crucial task, especially when it comes to ensuring that email addresses are in the correct format. One way to achieve this is through the use of regular expressions, or regex. This tutorial will break down the components of a regex pattern that matches email addresses, explaining how each part contributes to identifying a valid email address.
 
 ## Summary
+
+The regex we'll be discussing is used to match a standard email address format:
+
+`/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`
 
 Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
 
