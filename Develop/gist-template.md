@@ -31,6 +31,11 @@ The ^ and $ symbols are anchors in regex that mark the start and end of the stri
 
 ### User Name Segment: ([a-z0-9_.-]+)
 
+This part of the regex matches the user name part of the email, which comes before the @ symbol.
+
+* `[a-z0-9_\.-]` matches any lowercase letter, digit, underscore (`_`), period (`.`), or hyphen (`-`).
+* `+` ensures that this part of the email has one or more characters.
+
 ### The @ Symbol
 
 ### Domain Name Segment: ([\da-z.-]+)
