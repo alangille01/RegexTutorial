@@ -13,16 +13,12 @@ This pattern ensures that the email has a valid format, such as example@domain.c
 ## Table of Contents
 
 - [Anchors: ^ and $](#anchors)
-- [Quantifiers](#quantifiers)
-- [OR Operator](#or-operator)
-- [Character Classes](#character-classes)
+- [User Name Segment: ([a-z0-9_.-]+)](#quantifiers)
+- [The @ Symbol](#or-operator)
+- [Domain Name Segment: ([\da-z.-]+)](#character-classes)
 - [Flags](#flags)
-- [Grouping and Capturing](#grouping-and-capturing)
-- [Bracket Expressions](#bracket-expressions)
-- [Greedy and Lazy Match](#greedy-and-lazy-match)
-- [Boundaries](#boundaries)
-- [Back-references](#back-references)
-- [Look-ahead and Look-behind](#look-ahead-and-look-behind)
+- [Top-Level Domain: ([a-z.]{2,6})](#grouping-and-capturing)
+- [About the Author](#bracket-expressions)
 
 ## Regex Components
 
