@@ -1,4 +1,4 @@
-# Title (replace with your title)
+# Regex Tutorial: Enforce That Email Structure!
 
 In web development, validating user input is a crucial task, especially when it comes to ensuring that email addresses are in the correct format. One way to achieve this is through the use of regular expressions, or regex. This tutorial will break down the components of a regex pattern that matches email addresses, explaining how each part contributes to identifying a valid email address.
 
