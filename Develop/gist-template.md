@@ -49,6 +49,11 @@ This segment matches the domain name part of the email, which comes after the @ 
 
 ### Top-Level Domain: ([a-z.]{2,6})
 
+The top-level domain (TLD) is the final part of the email, such as .com or .org.
+
+* `[a-z\.]` matches any lowercase letter or period.
+* `{2,6}` specifies that the TLD must be between 2 and 6 characters long.
+
 ## Author
 
 A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
