@@ -13,7 +13,7 @@ This pattern ensures that the email has a valid format, such as example@domain.c
 ## Table of Contents
 
 - [Anchors: ^ and $](#anchors)
-- [User Name Segment: ([a-z0-9_.-]+)](#quantifiers)
+- [User Name Segment: ([a-z0-9_.-]+)](#user-name)
 - [The @ Symbol](#or-operator)
 - [Domain Name Segment: ([\da-z.-]+)](#character-classes)
 - [Flags](#flags)
@@ -29,25 +29,13 @@ The ^ and $ symbols are anchors in regex that mark the start and end of the stri
 * ^ asserts the position at the start of the string.
 * $ asserts the position at the end of the string.
 
-### Quantifiers
+### User Name Segment: ([a-z0-9_.-]+)
 
-### OR Operator
+### The @ Symbol
 
-### Character Classes
+### Domain Name Segment: ([\da-z.-]+)
 
-### Flags
-
-### Grouping and Capturing
-
-### Bracket Expressions
-
-### Greedy and Lazy Match
-
-### Boundaries
-
-### Back-references
-
-### Look-ahead and Look-behind
+### Top-Level Domain: ([a-z.]{2,6})
 
 ## Author
 
