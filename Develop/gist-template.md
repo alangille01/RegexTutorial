@@ -55,4 +55,6 @@ The top-level domain (TLD) is the final part of the email, such as .com or .org.
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Hello! I am Alexis Langille, the author of this tutorial. 
+
+Please check out more of my projects on GitHub: https://github.com/alangille01
