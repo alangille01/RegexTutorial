@@ -24,6 +24,11 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ### Anchors
 
+The ^ and $ symbols are anchors in regex that mark the start and end of the string, respectively. They ensure that the regex pattern matches the entire string, not just a part of it.
+
+* ^ asserts the position at the start of the string.
+* $ asserts the position at the end of the string.
+
 ### Quantifiers
 
 ### OR Operator
