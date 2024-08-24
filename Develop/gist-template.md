@@ -38,6 +38,8 @@ This part of the regex matches the user name part of the email, which comes befo
 
 ### The @ Symbol
 
+The `@` symbol is a fixed part of the email format. The regex matches this symbol directly, ensuring it appears between the user name and domain name.
+
 ### Domain Name Segment: ([\da-z.-]+)
 
 ### Top-Level Domain: ([a-z.]{2,6})
