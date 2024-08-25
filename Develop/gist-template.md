@@ -12,7 +12,7 @@ This pattern ensures that the email has a valid format, such as example@domain.c
 
 ## Table of Contents
 
-- [Anchors: ^ and $](#anchors)
+- [Anchors: ^ and $](#anchors--and-)
 - [User Name Segment: ([a-z0-9_.-]+)](#user-name-segment-a-z0-9_-)
 - [The @ Symbol](#the--symbol)
 - [Domain Name Segment: ([\da-z.-]+)](#domain-name-segment-da-z-)
