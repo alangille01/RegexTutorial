@@ -18,7 +18,7 @@ This pattern ensures that the email has a valid format, such as example@domain.c
 - [Domain Name Segment: ([\da-z.-]+)](#domain-name-segment-da-z-)
 - [Top-Level Domain: ([a-z.]{2,6})](#top-level-domain-a-z26)
 - [Valid and Invalid Email Examples](#valid-and-invalid-email-examples)
-= [References]
+- [References](#references)
 - [About the Author](#author)
 
 ## Regex Components
@@ -86,6 +86,11 @@ Invalid Emails:
 
 * `user@domain..com` (multiple periods in domain)
 * `user@.com` (missing domain name)
+
+## References
+
+* [Regex Tutorial - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
+* [Regular Expressions 101](https://regex101.com/)
 
 ## Author
 
