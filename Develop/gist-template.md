@@ -17,6 +17,8 @@ This pattern ensures that the email has a valid format, such as example@domain.c
 - [The @ Symbol](#the--symbol)
 - [Domain Name Segment: ([\da-z.-]+)](#domain-name-segment-da-z-)
 - [Top-Level Domain: ([a-z.]{2,6})](#top-level-domain-a-z26)
+- [Valid and Invalid Email Examples](#valid-and-invalid-email-examples)
+= [References]
 - [About the Author](#author)
 
 ## Regex Components
@@ -35,9 +37,19 @@ This part of the regex matches the user name part of the email, which comes befo
 * `[a-z0-9_\.-]` matches any lowercase letter, digit, underscore (`_`), period (`.`), or hyphen (`-`).
 * `+` ensures that this part of the email has one or more characters.
 
+#### Examples:
+
+* `user_name123` (matches)
+* `user@domain.com` (does not match)
+
 ### The `@` Symbol
 
 The `@` symbol is a fixed part of the email format. The regex matches this symbol directly, ensuring it appears between the user name and domain name.
+
+#### Example:
+
+* `example@domain.com` (matches)
+* `exampleAtdomain.com` (does not match)
 
 ### Domain Name Segment: `([\da-z.-]+)`
 
@@ -46,12 +58,34 @@ This segment matches the domain name part of the email, which comes after the @ 
 * `[\da-z\.-]` matches any digit (`\d`), lowercase letter, period (`.`), or hyphen (`-`).
 * `+` ensures that this part of the email has one or more characters.
 
+#### Examples:
+
+* `domain-name` (matches)
+* `domain..com` (does not match)
+
 ### Top-Level Domain: `([a-z.]{2,6})`
 
 The top-level domain (TLD) is the final part of the email, such as .com or .org.
 
 * `[a-z\.]` matches any lowercase letter or period.
 * `{2,6}` specifies that the TLD must be between 2 and 6 characters long.
+
+#### Examples:
+
+* `.com` (matches)
+* `.museum` (matches)
+* `.a` (does not match)
+
+### Valid and Invalid Email Examples
+Valid Emails:
+
+* `test@example.com`
+* `user.name@domain.co`
+
+Invalid Emails:
+
+* `user@domain..com` (multiple periods in domain)
+* `user@.com` (missing domain name)
 
 ## Author
 
