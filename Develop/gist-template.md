@@ -96,4 +96,4 @@ Invalid Emails:
 
 Hello! I am Alexis Langille, the author of this tutorial. 
 
-Please check out more of my projects on GitHub: https://github.com/alangille01
+Please check out more of my projects on [GitHub](https://github.com/alangille01)
